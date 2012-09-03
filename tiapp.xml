@@ -15,7 +15,7 @@
         <target device="blackberry">false</target>
     </deployment-targets>
     <sdk-version>2.1.1.GA</sdk-version>
-    <id>edu.self.test</id>
+    <id>ac.fun.Bootcamp2</id>
     <name>test</name>
     <version>1.0</version>
     <publisher>b1010049</publisher>
