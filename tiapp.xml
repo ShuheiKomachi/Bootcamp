@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="ti.android.runtime">rhino</property>
+    <property name="acs-oauth-secret-production" type="string">tQJ7tnktxkdqIBdQDiWvbyxy9ImtMpOV</property>
+    <property name="acs-oauth-key-production" type="string">ZXTRiyIDzWfcoZS3IQvijuUH0UP5kCVW</property>
+    <property name="acs-api-key-production" type="string">Ya2VCaQZDceno6QQBgy6o5mXQkP0pAwt</property>
+    <property name="acs-oauth-secret-development" type="string">3HIT1sT6xnq50OIMWqvuHelmMdp43FU1</property>
+    <property name="acs-oauth-key-development" type="string">NlwcF3mf7FHVZf6P68s59KekUcL9yaxs</property>
+    <property name="acs-api-key-development" type="string">efMMvP5fAj2bfmTVqgBqQoA6GxwOX46z</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.1.GA</sdk-version>
+    <id>ac.fun.bootcamp</id>
+    <name>Bootcamp</name>
+    <version>1.0</version>
+    <publisher>b1010049</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by b1010049</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>true</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>d699a696-34db-4d9c-83fa-6f070f860c54</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+</ti:app>
